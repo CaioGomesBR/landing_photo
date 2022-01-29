@@ -48,7 +48,7 @@
 #home{
   height: 100vh;
   background-image: url(./img/img.jpg);
-  background-position: center;
+  background-position: fixed;
   background-size: cover;
 }
 .content{
@@ -146,6 +146,16 @@
   bottom: -223px;
   left: 8px;
   background-color: #2949eb;
+}
+
+hr {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1px;
+  
+    background-color: #ce36d3;
 }
 
 
