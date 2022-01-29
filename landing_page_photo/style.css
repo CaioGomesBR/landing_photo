@@ -48,7 +48,7 @@
 #home{
   height: 100vh;
   background-image: url(./img/img.jpg);
-  background-position: fixed;
+  background-position: center;
   background-size: cover;
 }
 .content{
